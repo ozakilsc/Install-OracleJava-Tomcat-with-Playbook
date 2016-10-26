@@ -1,0 +1,2 @@
+[remote]
+ansible_connection=ssh ansible_host=192.168.31.88 ansible_port=2202 ansible_user=saito ansible_ssh_pass=1 ansible_become_user=root ansible_become_pass=1

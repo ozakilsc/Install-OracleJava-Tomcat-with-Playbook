@@ -1,0 +1,8 @@
+---
+- name: 安装OracleJava和Tomcat
+  hosts: all
+  become: yes
+
+  roles:
+    - oracle_java8
+    - tomcat8
